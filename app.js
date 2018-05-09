@@ -1,9 +1,6 @@
-/*
-Project:SE-chatbot project- developed by chatbot team22
-*/
 var restify = require('restify');
 var builder = require('botbuilder');
-var luis = require('./controller/Luis');
+
 //set up restify server
 var server = restify.createServer();
 server.listen(process.env.port || process.env.PORT || 3978, function () {
