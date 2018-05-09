@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/raidenzhang/AutChatbot/issues"
   },
-  "homepage": "https://github.com/raidenzhang/AutChatbot#readme"
+  "homepage": "https://github.com/raidenzhang/AutChatbot#readme",
+  "dependencies": {
+    "botbuilder": "^3.15.0"
+  }
 }
