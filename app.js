@@ -9,7 +9,7 @@ server.listen(process.env.port || process.env.PORT || 3978, function () {
 
 
 // Create chat connector for communicating with the Bot Framework Service
-var connector = new builder.ConsoleConnector(({
+var connector = new builder.ChatConnector({
     appId: process.env.MicrosoftAppId,
     appPassword: process.env.MicrosoftAppPassword
 });
@@ -23,5 +23,3 @@ server.post('/api/messages', connector.listen());
 var bot = new builder.UniversalBot(connector, function (session) {
     session.send("You said: %s", session.message.text);
 });
-
-
