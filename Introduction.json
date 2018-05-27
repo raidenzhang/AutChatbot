@@ -1,0 +1,76 @@
+{
+  "id": "0832dacb-bf81-4583-a75b-05933d6edc1f",
+  "name": "Introduction",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "No, I am a robot."
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527211677,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "c8d3967d-722f-4d0f-8ffd-7b25fa674379",
+      "data": [
+        {
+          "text": "Are you a human being?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1527211609,
+      "isAuto": false
+    },
+    {
+      "id": "a191902a-57b1-47a7-835a-e5525ca21d64",
+      "data": [
+        {
+          "text": "Are you a student or do you work?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1527211609,
+      "isAuto": false
+    },
+    {
+      "id": "4ec2fc62-b873-451c-a355-c6b42714beb9",
+      "data": [
+        {
+          "text": "Are you a student?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1527211609,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}
