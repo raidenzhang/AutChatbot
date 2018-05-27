@@ -1,0 +1,52 @@
+{
+  "id": "9cd9d701-b8b4-4cc2-a755-71ded33753fe",
+  "name": "who-are-you",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "speech": "I am a chatbot helping students enroll courses at AUT."
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527211734,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "55ed6859-9336-47a1-908e-1dc5513dd158",
+      "data": [
+        {
+          "text": "Who are you?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1527211734,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}
